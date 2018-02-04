@@ -1,0 +1,120 @@
+/* line 3, ../sass/kgdev_chat.sass */
+#oc_chat_start {
+  font-family: sans-serif;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  background-color: #0099DD;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  font-size: 14px;
+  padding: 7px 12px;
+}
+
+/* line 15, ../sass/kgdev_chat.sass */
+#oc_chat_window {
+  font-size: 14px;
+  width: 90%;
+  max-width: 320px;
+  max-height: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  right: 1%;
+  background-color: #f7f7f7;
+  border: 0;
+  box-shadow: -2px 3px 10px #BBBBBB;
+}
+
+/* line 35, ../sass/kgdev_chat.sass */
+#oc_chat_header {
+  font-size: 1em;
+  padding: 7px 8px;
+  margin: 0;
+  background-color: #0099DD;
+  color: #ffffff;
+}
+
+/* line 42, ../sass/kgdev_chat.sass */
+#oc_chat_close {
+  float: right;
+  cursor: pointer;
+}
+
+/* line 46, ../sass/kgdev_chat.sass */
+#oc_chat_messages {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 7px 8px;
+}
+/* line 52, ../sass/kgdev_chat.sass */
+#oc_chat_messages .message_thread {
+  padding: 5px 0 0 0;
+}
+/* line 54, ../sass/kgdev_chat.sass */
+#oc_chat_messages .message_content {
+  overflow: hidden;
+  font-size: 0.9em;
+  margin: 0 0 9px 0;
+  color: #555555;
+  font-weight: lighter;
+  padding: 0;
+}
+/* line 61, ../sass/kgdev_chat.sass */
+#oc_chat_messages .message_content p, #oc_chat_messages .message_content span {
+  margin: 0 0 0.5em 0;
+}
+/* line 63, ../sass/kgdev_chat.sass */
+#oc_chat_messages .owner {
+  color: #777777;
+  font-size: 1em;
+  display: block;
+  font-weight: bold;
+}
+/* line 68, ../sass/kgdev_chat.sass */
+#oc_chat_messages .message_img {
+  float: left;
+  margin: 5px 7px 5px 0;
+}
+/* line 71, ../sass/kgdev_chat.sass */
+#oc_chat_messages .message_img img {
+  width: 36px;
+  height: auto;
+  border-radius: 18px;
+}
+
+/* line 76, ../sass/kgdev_chat.sass */
+#oc_chat_input {
+  display: flex;
+  height: 45px;
+  min-height: 45px;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 13px 8px 0 8px;
+  color: #888888;
+  background: #FFFFFF;
+  font-size: 0.9em;
+  width: 100%;
+  border-top: 1px solid #DDDDDD;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid #DDDDDD;
+}
+/* line 95, ../sass/kgdev_chat.sass */
+#oc_chat_input:focus {
+  border-bottom: 3px solid #0099DD;
+}
