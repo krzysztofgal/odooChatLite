@@ -1,5 +1,5 @@
 # odooChatLite
-Alternative client for odoo livechat witch basic functionality. Require jQuery 1.x or above.
+Alternative client for odoo livechat with basic functionality. Require jQuery 1.x or above.
 
 Usage 
 
