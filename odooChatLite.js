@@ -337,7 +337,6 @@ var odooChat =
             var lastMessageOwner = null,
                 originServer = null,
                 isChatOpened = false,
-                isChatActive = false,
                 chatButton = null,
                 chatWindow = null,
                 chatMessages = null,
@@ -553,7 +552,6 @@ var odooChat =
                 if (isChatOpened) {
                     chatWindow.remove();
                     isChatOpened = false;
-                    isChatActive = false;
                 }
             }
 
